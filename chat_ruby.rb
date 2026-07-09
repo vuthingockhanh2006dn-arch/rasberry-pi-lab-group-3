@@ -1,7 +1,7 @@
 require 'mqtt'
 require 'thread'
 
-print "Nhap ten cua ban: "
+print "Ten cua ban: "
 name = gets.chomp
 
 client = MQTT::Client.connect('localhost')
